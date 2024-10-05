@@ -2,9 +2,11 @@
 
 using Algorithms;
 using Algorithms.Medium;
+using Algorithms.tbank.Easy;
 
 var test = new ListNode
-{  // 6 2 2 3 3 4 4 4 5 5
+{
+    // 6 2 2 3 3 4 4 4 5 5
     val = 6,
     next = new ListNode
     {
@@ -46,7 +48,8 @@ var test = new ListNode
 };
 
 var test00 = new ListNode
-{  // 6 9 2 7 6
+{
+    // 6 9 2 7 6
     val = 6,
     next = new ListNode
     {
@@ -68,7 +71,8 @@ var test00 = new ListNode
 };
 
 var test1 = new ListNode
-{ // 9 3 5 9 6 8 9
+{
+    // 9 3 5 9 6 8 9
     val = 9,
     next = new ListNode
     {
@@ -98,7 +102,8 @@ var test1 = new ListNode
 };
 
 var test11 = new ListNode
-{ // 9 3 5 
+{
+    // 9 3 5 
     val = 9,
     next = new ListNode
     {
@@ -117,5 +122,11 @@ var test11 = new ListNode
 //PascalsTriangle.Generate(6);
 //Console.WriteLine(result);
 
-var t = AddTwoNumbers.AddTwoNumbersTask(test00, test11);
-var rs = 0;
+//var t = AddTwoNumbers.AddTwoNumbersTask(test00, test11);
+//var rs = 0;
+
+//MoveZeroesType.MoveZeroesV2(new[] { 0,0,1 });
+
+//IsPalindromeType.IsPalindrome2(123454331);
+
+IntersectType.Intersect1([4, 9, 5], [9, 4, 9, 8, 4]);
