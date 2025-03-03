@@ -4,8 +4,8 @@ public static class MergeSortedArray
 {
     public static void Merge(int[] nums1, int m, int[] nums2, int n)
     {
-        var tempList = new List<int>(nums1.Take(m));
-        tempList.AddRange(nums2.Take(n));
+        var tempList = new List<int>(nums1);
+        tempList.AddRange(nums2);
         tempList.Sort();
         nums1 = tempList.ToArray();
     }
@@ -32,5 +32,11 @@ public static class MergeSortedArray
         }
 
         Array.Sort(nums1);
+    } 
+    
+    //https://leetcode.com/problems/merge-sorted-array/description/?envType=study-plan-v2&envId=top-interview-150
+    public static void Merge3(int[] nums1, int m, int[] nums2, int n)
+    {
+       var temp = new List<int>(nums1.Take(m));
     }
 }
