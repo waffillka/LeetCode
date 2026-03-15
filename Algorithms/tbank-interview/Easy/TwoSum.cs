@@ -1,4 +1,4 @@
-namespace Algorithms.tbank_interview;
+namespace Algorithms.tbank_interview.Easy;
 
 // https://leetcode.com/problems/two-sum
 public static class TwoSum

@@ -2,6 +2,7 @@
 
 using Algorithms;
 using Algorithms.tbank_interview;
+using Algorithms.tbank_interview.Easy;
 
 
 TwoSum.Test();
