@@ -8,4 +8,5 @@ using Algorithms.tbank_interview.Medium;
 
 //TwoSum.Test();
 //NumberOfIslands.Test();
-MergeIntervals.Test();
+//MergeIntervals.Test();
+ClimbingStairs.Test();
