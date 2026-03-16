@@ -9,4 +9,6 @@ using Algorithms.tbank_interview.Medium;
 //TwoSum.Test();
 //NumberOfIslands.Test();
 //MergeIntervals.Test();
-ClimbingStairs.Test();
+//ClimbingStairs.Test();
+//BestTimetoBuyandSellStock.Test();
+SingleNumber.Test();

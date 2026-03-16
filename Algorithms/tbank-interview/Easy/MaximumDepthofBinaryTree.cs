@@ -4,9 +4,9 @@ using Algorithms.Models;
 
 namespace Algorithms.tbank_interview.Easy;
 
-public class MaximumDepthofBinaryTree
+public static class MaximumDepthofBinaryTree
 {
-    public int MaxDepth(TreeNode root)
+    public static int MaxDepth(TreeNode root)
     {
         if (root is null)
         {
