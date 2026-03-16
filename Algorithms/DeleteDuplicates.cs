@@ -4,13 +4,11 @@ public class DeleteDuplicates
 {
     public static ListNode DeleteDuplicatesTask(ListNode head)
     {
-        HashSet<int> set = new HashSet<int>();
-
         if (head == null)
         {
             return head;
         }
-
+        HashSet<int> set = new HashSet<int>();
         set.Add(head.val);
         ListNode current = head;
         ListNode next = head.next;
