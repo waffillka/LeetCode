@@ -22,4 +22,5 @@ using Algorithms.tbank_interview.Medium;
 //MaximumAverageSubarray.Test();
 //FindSmallestLetterGreaterThanTarget.Test();
 //BinarSearch.Test();
-BackspaceStringCompare.Test();
+//BackspaceStringCompare.Test();
+SquaresofaSortedArray.Test();
