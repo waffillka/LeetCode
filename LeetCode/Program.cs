@@ -18,4 +18,5 @@ using Algorithms.tbank_interview.Medium;
 //MissingNumber.Test();
 //MoveZeroes.Test();
 //IsSubsequence.Test();
-FindAllNumbersDisappearedinanArray.Test();
+//FindAllNumbersDisappearedinanArray.Test();
+MaximumAverageSubarray.Test();
