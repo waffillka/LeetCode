@@ -19,4 +19,7 @@ using Algorithms.tbank_interview.Medium;
 //MoveZeroes.Test();
 //IsSubsequence.Test();
 //FindAllNumbersDisappearedinanArray.Test();
-MaximumAverageSubarray.Test();
+//MaximumAverageSubarray.Test();
+//FindSmallestLetterGreaterThanTarget.Test();
+//BinarSearch.Test();
+BackspaceStringCompare.Test();
