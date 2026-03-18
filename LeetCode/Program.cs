@@ -16,4 +16,6 @@ using Algorithms.tbank_interview.Medium;
 //ReverseLinkedList.Test();
 //ContainsDuplicate.Test();
 //MissingNumber.Test();
-MoveZeroes.Test();
+//MoveZeroes.Test();
+//IsSubsequence.Test();
+FindAllNumbersDisappearedinanArray.Test();
