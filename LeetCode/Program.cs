@@ -15,4 +15,5 @@ using Algorithms.tbank_interview.Medium;
 //RemoveLinkedListElements.Test();
 //ReverseLinkedList.Test();
 //ContainsDuplicate.Test();
-MissingNumber.Test();
+//MissingNumber.Test();
+MoveZeroes.Test();
