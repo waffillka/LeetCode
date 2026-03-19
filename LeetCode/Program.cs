@@ -23,4 +23,6 @@ using Algorithms.tbank_interview.Medium;
 //FindSmallestLetterGreaterThanTarget.Test();
 //BinarSearch.Test();
 //BackspaceStringCompare.Test();
-SquaresofaSortedArray.Test();
+//SquaresofaSortedArray.Test();
+//ValidAnagram.Test();
+ValidPalindrome.Test();
