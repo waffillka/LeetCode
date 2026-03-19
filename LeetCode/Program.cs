@@ -1,5 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-
+﻿//https://seanprashad.com/leetcode-patterns/
 using Algorithms;
 using Algorithms.tbank_interview;
 using Algorithms.tbank_interview.Easy;
@@ -30,4 +29,7 @@ using Algorithms.tbank_interview.Medium;
 //Numberof1Bits.Test();
 //ReverseBits.Test();
 //AddTwoNumbers.Test();
-LongestSubstringWithoutRepeatingCharacters.Test();
+//LongestSubstringWithoutRepeatingCharacters.Test();
+//LongestPalindromicSubstring.Test();
+//ContainerWithMostWater.Test();
+MinStackTask.Test();
