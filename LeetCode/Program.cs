@@ -26,4 +26,5 @@ using Algorithms.tbank_interview.Medium;
 //SquaresofaSortedArray.Test();
 //ValidAnagram.Test();
 //ValidPalindrome.Test();
-ValidParentheses.Test();
+//ValidParentheses.Test();
+Numberof1Bits.Test();
