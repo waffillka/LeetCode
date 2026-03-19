@@ -27,4 +27,7 @@ using Algorithms.tbank_interview.Medium;
 //ValidAnagram.Test();
 //ValidPalindrome.Test();
 //ValidParentheses.Test();
-Numberof1Bits.Test();
+//Numberof1Bits.Test();
+//ReverseBits.Test();
+//AddTwoNumbers.Test();
+LongestSubstringWithoutRepeatingCharacters.Test();
