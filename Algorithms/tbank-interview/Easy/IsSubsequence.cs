@@ -31,6 +31,34 @@ public static class IsSubsequence
         return false;
     }
 
+
+    public static bool IsSubsequence_2gen(string s, string t)
+    {
+        if (s.Length == 0)
+        {
+            return true;
+        }
+
+        var i = 0;
+        var j = 0;
+
+        while (i < t.Length)
+        {
+            if (s[j] == t[i])
+            {
+                j++;
+                if (j == s.Length)
+                {
+                    return true;
+                }
+            }
+
+            i++;
+        }
+
+        return false;
+    }
+
     public static void Test()
     {
         var result = IsSubsequence_gen("abc", "ahbgdc");
