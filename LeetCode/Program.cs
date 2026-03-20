@@ -38,4 +38,5 @@ using Algorithms.tbank_interview.Medium;
 //FindFirstandLastPositionofElementinSortedArray.Test();
 //SimplifyPath.Test();
 //FormSmallestNumberFromTwoDigitArrays.Test();
-BattleshipsinBoard.Test();
+//BattleshipsinBoard.Test();
+LongestSubarrayof1SAfterDeletingOneElement.Test();
