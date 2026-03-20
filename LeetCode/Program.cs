@@ -39,4 +39,5 @@ using Algorithms.tbank_interview.Medium;
 //SimplifyPath.Test();
 //FormSmallestNumberFromTwoDigitArrays.Test();
 //BattleshipsinBoard.Test();
-LongestSubarrayof1SAfterDeletingOneElement.Test();
+//LongestSubarrayof1SAfterDeletingOneElement.Test();
+Search2DMatrix.Test();
