@@ -32,4 +32,6 @@ using Algorithms.tbank_interview.Medium;
 //LongestSubstringWithoutRepeatingCharacters.Test();
 //LongestPalindromicSubstring.Test();
 //ContainerWithMostWater.Test();
-MinStackTask.Test();
+//MinStackTask.Test();
+//RotateImage.Test();
+KeysandRooms.Test();

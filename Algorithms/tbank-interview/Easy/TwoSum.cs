@@ -71,9 +71,27 @@ public static class TwoSum
         return [-1, -1];
     }
 
+    private static int[] TwoSum_5GEN(int[] nums, int target)
+    {
+        var dict = new Dictionary<int, int>(nums.Length);
+
+        for (var i = 0; i < nums.Length; i++)
+        {
+            var diff = target - nums[i];
+            if (dict.TryGetValue(diff, out var index))
+            {
+                return [index, i];
+            }
+
+            dict[nums[i]] = i;
+        }
+
+        return [-1, -1];
+    }
+
     public static void Test()
     {
-        var result = TwoSum_4GEN([1, 1, 1, 1, 1, 4, 1, 1, 1, 1, 1, 7, 1, 1, 1, 1, 1], 11);
+        var result = TwoSum_5GEN([1, 1, 1, 1, 1, 4, 1, 1, 1, 1, 1, 7, 1, 1, 1, 1, 1], 11);
         Console.WriteLine(result);
     }
 }
