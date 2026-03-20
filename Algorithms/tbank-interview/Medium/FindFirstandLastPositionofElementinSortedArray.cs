@@ -5,7 +5,7 @@ public static class FindFirstandLastPositionofElementinSortedArray
 {
     private static int[] SearchRange(int[] nums, int target)
     {
-        return [BinarySearch(nums, target, true), BinarySearch(nums, target)];
+        return [SearchRange_3Gen(nums, target, true), SearchRange_3Gen(nums, target)];
     }
 
     private static int BinarySearch(int[] nums, int target, bool findFirst = false)
@@ -59,9 +59,44 @@ public static class FindFirstandLastPositionofElementinSortedArray
         return [first, last];
     }
 
+    private static int SearchRange_3Gen(int[] nums, int target, bool first = false)
+    {
+        var left = 0;
+        var right = nums.Length - 1;
+        var result = -1;
+        while (left <= right)
+        {
+            var mid = left + (right - left) / 2;
+            if (nums[mid] == target)
+            {
+                result = mid;
+
+
+                if (first)
+                {
+                    right = mid - 1;
+                }
+                else
+                {
+                    left = mid + 1;
+                }
+            }
+            else if (nums[mid] > target)
+            {
+                right = mid - 1;
+            }
+            else
+            {
+                left = mid + 1;
+            }
+        }
+
+        return result;
+    }
+
     public static void Test()
     {
-        var result = SearchRange([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 7);
+        var result = SearchRange([1, 2, 3, 4, 5, 6, 7, 7, 7, 7], 7);
         Console.WriteLine(result);
     }
 }

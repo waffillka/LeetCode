@@ -19,7 +19,7 @@ public static class NumberOfIslands
                 }
             }
         }
-        
+
         return islands;
     }
 
@@ -41,9 +41,43 @@ public static class NumberOfIslands
         Dfs(grid, row, col - 1);
     }
 
+    private static int NumIslands_gen(char[][] grid)
+    {
+        var result = 0;
+        for (var i = 0; i < grid.Length; i++)
+        {
+            for (var j = 0; j < grid[i].Length; j++)
+            {
+                if (grid[i][j] == '1')
+                {
+                    result++;
+                    DeleteIsland(grid, i, j);
+                }
+            }
+        }
+
+        return result;
+    }
+
+    private static void DeleteIsland(char[][] grid, int row, int col)
+    {
+        if (row < 0 || col < 0 || row >= grid.Length || col >= grid[row].Length || grid[row][col] == '0')
+        {
+            return;
+        }
+        
+        grid[row][col] = '0';
+
+        DeleteIsland(grid, row + 1, col);
+        DeleteIsland(grid, row - 1, col);
+        DeleteIsland(grid, row, col + 1);
+        DeleteIsland(grid, row, col - 1);
+    }
+
+
     public static void Test()
     {
-        var result = NumIslands([['1', '1', '1', '1', '0'], ['1', '1', '0', '1', '0'], ['1', '1', '0', '0', '0'], ['0', '0', '0', '0', '0']]);
+        var result = NumIslands_gen([['1', '1', '1', '1', '0'], ['1', '1', '0', '1', '0'], ['1', '1', '0', '0', '0'], ['0', '0', '0', '0', '0']]);
         Console.WriteLine(result);
     }
 }
