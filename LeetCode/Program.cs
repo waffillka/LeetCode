@@ -3,6 +3,7 @@ using Algorithms;
 using Algorithms.tbank_interview;
 using Algorithms.tbank_interview.Easy;
 using Algorithms.tbank_interview.Medium;
+using Algorithms.tbank_interview.Real_T;
 
 
 //TwoSum.Test();
@@ -40,4 +41,9 @@ using Algorithms.tbank_interview.Medium;
 //FormSmallestNumberFromTwoDigitArrays.Test();
 //BattleshipsinBoard.Test();
 //LongestSubarrayof1SAfterDeletingOneElement.Test();
-Search2DMatrix.Test();
+//Search2DMatrix.Test();
+//MinimumDifferenceBetweenHighestandLowestofKScores.Test();
+//CountSquareSubmatriceswithAllOnes.Test();
+//SumWithMines.Test();
+//MaxHappinessTask.Test();
+WordLadder.Test();
