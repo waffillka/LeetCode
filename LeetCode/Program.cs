@@ -47,4 +47,6 @@ using Algorithms.tbank_interview.Real_T;
 //SumWithMines.Test();
 //MaxHappinessTask.Test();
 //WordLadder.Test();
-GroupAnagrams.Test();
+//GroupAnagrams.Test();
+//Vacations.Test();
+PermutationinString.Test();
