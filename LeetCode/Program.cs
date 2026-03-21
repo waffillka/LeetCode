@@ -46,4 +46,5 @@ using Algorithms.tbank_interview.Real_T;
 //CountSquareSubmatriceswithAllOnes.Test();
 //SumWithMines.Test();
 //MaxHappinessTask.Test();
-WordLadder.Test();
+//WordLadder.Test();
+GroupAnagrams.Test();
