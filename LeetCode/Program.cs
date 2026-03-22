@@ -51,4 +51,5 @@ using Algorithms.tbank_interview.Real_T;
 //Vacations.Test();
 //PermutationinString.Test();
 //DecodeString.Test();
-SubarraySumsDivisiblebyK.Test();
+//SubarraySumsDivisiblebyK.Test();
+MaximizeDistancetoClosestPerson.Test();
