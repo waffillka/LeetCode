@@ -7,7 +7,7 @@ public static class IsomorphicStrings
         return IsIsomorphicHelp(s, t) && IsIsomorphicHelp(t, s);
     }
 
-    public static bool IsIsomorphicHelp(string s, string t)
+    private static bool IsIsomorphicHelp(string s, string t)
     {
         if (s.Length != t.Length)
         {
