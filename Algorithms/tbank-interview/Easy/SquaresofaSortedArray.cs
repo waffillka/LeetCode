@@ -53,7 +53,41 @@ public static class SquaresofaSortedArray
 
             index--;
         }
-        
+
+        return result;
+    }
+
+    private static int[] SortedSquares_3Gen(int[] nums)
+    {
+        if (nums.Length == 0)
+        {
+            return [];
+        }
+
+        var result = new int[nums.Length];
+        var left = 0;
+        var right = nums.Length - 1;
+        var index = nums.Length - 1;
+
+        while (left <= right)
+        {
+            var numLeft = nums[left] * nums[left];
+            var numRight = nums[right] * nums[right];
+
+            if (numLeft >= numRight)
+            {
+                result[index] = numLeft;
+                left++;
+            }
+            else
+            {
+                result[index] = numRight;
+                right--;
+            }
+
+            index--;
+        }
+
         return result;
     }
 
