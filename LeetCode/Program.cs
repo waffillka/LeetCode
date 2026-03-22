@@ -49,4 +49,5 @@ using Algorithms.tbank_interview.Real_T;
 //WordLadder.Test();
 //GroupAnagrams.Test();
 //Vacations.Test();
-PermutationinString.Test();
+//PermutationinString.Test();
+DecodeString.Test();

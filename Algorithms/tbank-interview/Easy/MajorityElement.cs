@@ -19,7 +19,7 @@ public static class MajorityElement
 
     public static void Test()
     {
-        var result = MajorityElement_gen([]);
+        var result = MajorityElement_gen([1, 2, 4, 3, 3, 3, 5, 5, 6, 6, 2, 4, 5, 2]);
         Console.WriteLine(result);
     }
 }
