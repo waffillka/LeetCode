@@ -52,4 +52,5 @@ using Algorithms.tbank_interview.Real_T;
 //PermutationinString.Test();
 //DecodeString.Test();
 //SubarraySumsDivisiblebyK.Test();
-MaximizeDistancetoClosestPerson.Test();
+//MaximizeDistancetoClosestPerson.Test();
+FindtheLongestBalancedSubstringofaBinaryString.Test();

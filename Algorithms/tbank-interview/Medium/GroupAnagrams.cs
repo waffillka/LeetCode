@@ -15,7 +15,7 @@ public static class GroupAnagrams
             }
 
             var key = string.Join(',', temp);
-
+            
             if (!dict.ContainsKey(key))
             {
                 dict[key] = [item];

@@ -1,5 +1,6 @@
 namespace Algorithms.tbank_interview.Easy;
 
+//https://leetcode.com/problems/find-smallest-letter-greater-than-target/description/
 public static class FindSmallestLetterGreaterThanTarget
 {
     private static char NextGreatestLetter(char[] letters, char target)

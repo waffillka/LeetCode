@@ -1,5 +1,6 @@
 namespace Algorithms.tbank_interview.Easy;
 
+//https://leetcode.com/problems/isomorphic-strings/description/
 public static class IsomorphicStrings
 {
     public static bool IsIsomorphic(string s, string t)

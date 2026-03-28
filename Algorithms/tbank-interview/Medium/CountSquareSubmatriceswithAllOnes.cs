@@ -12,7 +12,7 @@ public static class CountSquareSubmatriceswithAllOnes
         for (var i = 0; i < rows; i++)
         {
             memo[i] = new int[cols];
-            for (int j = 0; j < cols; j++)
+            for (var j = 0; j < cols; j++)
             {
                 memo[i][j] = -1;
             }
@@ -21,7 +21,7 @@ public static class CountSquareSubmatriceswithAllOnes
         var total = 0;
         for (var r = 0; r < rows; r++)
         {
-            for (int c = 0; c < cols; c++)
+            for (var c = 0; c < cols; c++)
             {
                 total += Dfs(r, c);
             }

@@ -46,12 +46,11 @@ public static class LongestSubstringWithoutRepeatingCharacters
             {
                 result = Math.Max(result, set.Count);
                 set.Clear();
+                i = iPtr;
                 iPtr++;
-                i = iPtr - 1;
             }
         }
-
-
+        
         return Math.Max(result, set.Count);
     }
 

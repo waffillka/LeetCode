@@ -1,4 +1,4 @@
-namespace Algorithms.tbank_interview.Medium;
+namespace Algorithms.tbank_interview.Real_T;
 
 //https://leetcode.com/problems/merge-intervals
 public static class MergeIntervals

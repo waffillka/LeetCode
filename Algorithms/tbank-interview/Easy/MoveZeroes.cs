@@ -1,5 +1,6 @@
 namespace Algorithms.tbank_interview.Easy;
 
+//https://leetcode.com/problems/move-zeroes/description/
 public static class MoveZeroes
 {
     private static int[] MoveZeroes_gen(int[] nums)

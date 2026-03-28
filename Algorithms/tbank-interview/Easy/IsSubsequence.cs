@@ -1,4 +1,5 @@
 namespace Algorithms.tbank_interview.Easy;
+//https://leetcode.com/problems/is-subsequence/description/
 
 public static class IsSubsequence
 {

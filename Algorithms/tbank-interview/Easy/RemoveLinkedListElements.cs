@@ -1,5 +1,7 @@
 namespace Algorithms.tbank_interview.Easy;
 
+//https://leetcode.com/problems/remove-linked-list-elements/
+
 public static class RemoveLinkedListElements
 {
     private static ListNode RemoveElements(ListNode head, int val)

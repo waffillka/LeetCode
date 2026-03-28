@@ -1,5 +1,5 @@
 namespace Algorithms.tbank_interview.Easy;
-
+//https://leetcode.com/problems/minimum-difference-between-highest-and-lowest-of-k-scores/
 public static class MinimumDifferenceBetweenHighestandLowestofKScores
 {
     private static int MinimumDifference(int[] nums, int k)

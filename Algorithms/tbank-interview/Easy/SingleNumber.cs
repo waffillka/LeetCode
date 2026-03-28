@@ -1,5 +1,7 @@
 namespace Algorithms.tbank_interview.Easy;
 
+//https://leetcode.com/problems/single-number/description/
+
 public static class SingleNumber
 {
     private static int SingleNumber_GEN(int[] nums)

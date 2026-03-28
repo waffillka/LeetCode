@@ -1,4 +1,4 @@
-namespace Algorithms.tbank_interview.Easy;
+namespace Algorithms.tbank_interview.Real_T;
 
 //https://leetcode.com/problems/valid-parentheses/description/
 public static class ValidParentheses

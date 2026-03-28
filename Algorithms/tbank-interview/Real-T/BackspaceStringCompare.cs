@@ -1,6 +1,7 @@
-using System.Text;
+
+
 //https://leetcode.com/problems/backspace-string-compare
-namespace Algorithms.tbank_interview.Easy;
+namespace Algorithms.tbank_interview.Real_T;
 
 public static class BackspaceStringCompare
 {

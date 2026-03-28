@@ -31,7 +31,7 @@ public static class RemoveDuplicatesfromSortedList
 
         var current = head;
         var next = head.next;
-
+        
         while (current != null && current.next != null)
         {
             next = current.next;

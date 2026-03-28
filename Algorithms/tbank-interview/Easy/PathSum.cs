@@ -3,6 +3,8 @@ using Algorithms.Models;
 
 namespace Algorithms.tbank_interview.Easy;
 
+//https://leetcode.com/problems/path-sum/description/
+
 public class PathSum
 {
     public bool HasPathSum(TreeNode root, int targetSum)

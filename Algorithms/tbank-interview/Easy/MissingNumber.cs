@@ -1,5 +1,5 @@
 namespace Algorithms.tbank_interview.Easy;
-
+//https://leetcode.com/problems/missing-number/description/
 public static class MissingNumber
 {
     private static int MissingNumber_gen(int[] nums)
